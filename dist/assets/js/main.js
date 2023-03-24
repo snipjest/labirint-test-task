@@ -18,7 +18,8 @@ new Swiper('.swiper', {
     },
     1280: {
       slidesPerView: 6,
-      slidesPerGroup: 6
+      slidesPerGroup: 6,
+      spaceBetween: 24
     }
   }
 });
