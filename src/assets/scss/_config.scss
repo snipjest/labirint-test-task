@@ -1,0 +1,31 @@
+$white: #ffffff;
+$black: #1A1F24;
+$gray: #64696E;
+$gray-border: #EEEEEE;
+$disable-bg: #E6EBF0;
+$disable-text: #C8CDD2;
+$orange: #FB923C;
+$green: #69A042;
+$red: #B91C1C;
+$systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+$userfont: 'PTRootUI', $systemfont;
+
+@mixin font-face($font-family, $file-name, $font-weight, $font-style) {
+  @font-face {
+		font-family: $font-family;
+		src: url('../fonts/#{$file-name}.eot');
+		src: url('../fonts/#{$file-name}.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/#{$file-name}.woff2') format('woff2'),
+		url('../fonts/#{$file-name}.woff') format('woff'),
+		url('../fonts/#{$file-name}.ttf') format('truetype');
+		font-weight: $font-weight;
+		font-style: $font-style;
+		font-display: swap;
+  }
+}
+
+@include font-face('PTRootUI', 'PTRootUI-Regular', 400, normal);
+@include font-face('PTRootUI', 'PTRootUI-Bold', 700, normal);
+
+
+
