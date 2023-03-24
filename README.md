@@ -1,7 +1,5 @@
 # Тестовое задание на вакансию «верстальщик»
-[Посмотреть демо](http://example.net/)
-
----
+[Посмотреть демо](https://snipjest.github.io/labirint-test-task/dist/)
 
 Установить пакеты
 ```bash
